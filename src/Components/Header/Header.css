@@ -1,0 +1,68 @@
+.header {
+    position: sticky;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #111;
+    height:65px;
+    z-index: 100;
+    color: white;
+}
+
+.picture__div {
+    position: relative;
+    border-radius: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__pic {
+    width: 2rem;
+}
+
+.header__content {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon__div {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.header__right {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width:80px;
+    cursor:pointer;
+    padding-left: 20px;
+}
+
+.bell__iconContainer {
+    position:relative;
+}
+
+.notification__count {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top:-4px;
+    left: 13px;
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 50%;
+}
