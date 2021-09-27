@@ -1,0 +1,54 @@
+.widget__small {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 11px -3px #000000; 
+    box-shadow: 0px 0px 11px -3px #000000;
+    margin-right: 20px;
+}
+
+.widget__small__title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.widget__small__list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.widget__small__list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widget__small__user{
+    display: flex;
+    flex-direction: column;
+}
+
+.widget__small__userName {
+    font-weight: 600;
+}
+
+.widget__small__jobTitle {
+    font-weight: 300;
+}
+
+.widget__small__btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.widget__small__img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

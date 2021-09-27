@@ -2,3 +2,8 @@
     flex: 4;
     background-color: #fafafa;
 }
+
+.home__widgets {
+    display: flex;
+    margin: 20px;
+}

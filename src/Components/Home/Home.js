@@ -67,8 +67,6 @@ class Home extends React.Component {
                     <WidgetSmall/>
                     <WidgetLarge/>
                 </div>
-                <Chart data={data} title = "User Analytics" dataKey="Active User"/>
-                <Chart data={data} title = "User Analytics" dataKey="Active User"/>
             </div>
         )
     }

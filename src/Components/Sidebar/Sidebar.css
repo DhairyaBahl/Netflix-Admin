@@ -6,7 +6,6 @@
     top: 65px;
 }
 
-/* min width */
 @media (max-width: 480px) {
     .sidebar {
         display: none;
