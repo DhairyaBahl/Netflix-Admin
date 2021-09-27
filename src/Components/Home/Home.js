@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css'
 import FeaturedInfo from '../FeaturedInfo/FeaturedInfo'
 import Chart from '../Chart/Chart'
+import WidgetLarge from '../WidgetLarge/WidgetLarge';
+import WidgetSmall from '../WidgetSmall/WidgetSmall';
 
 class Home extends React.Component {
     render () {
@@ -60,6 +62,12 @@ class Home extends React.Component {
         return (
             <div className = "home">
                 <FeaturedInfo />
+                <Chart data={data} title = "User Analytics" dataKey="Active User"/>
+                <div className="home__widgets">
+                    <WidgetSmall/>
+                    <WidgetLarge/>
+                </div>
+                <Chart data={data} title = "User Analytics" dataKey="Active User"/>
                 <Chart data={data} title = "User Analytics" dataKey="Active User"/>
             </div>
         )
