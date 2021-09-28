@@ -1,0 +1,65 @@
+.new__user {
+    flex: 4;
+    padding: 20px;
+}
+
+.new__user__form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new__user__item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.new__user__item > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.new__user__item > input {
+    height: 20px;
+    padding:10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.new__user__gender > input{
+    margin-top: 15px;
+}
+
+.new__user__gender > label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.new__user__select {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.new__user__btn {
+    width: 200px;
+    border: none;
+    background-color: #238636;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.submit__btn__div{
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

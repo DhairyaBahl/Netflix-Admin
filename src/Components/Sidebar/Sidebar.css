@@ -6,6 +6,10 @@
     top: 65px;
 }
 
+.sidebar__title{
+    margin-top: 20px;
+}
+
 @media (max-width: 480px) {
     .sidebar {
         display: none;

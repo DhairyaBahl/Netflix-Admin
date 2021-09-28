@@ -1,0 +1,21 @@
+.movie {
+    flex: 4;
+    padding: 20px;
+}
+
+.movie__title__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie__add__button {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #238636;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
