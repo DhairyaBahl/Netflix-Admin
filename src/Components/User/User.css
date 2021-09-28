@@ -1,0 +1,153 @@
+.user {
+    flex: 4;
+    padding: 20px;
+}
+
+.user__title__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user__add__btn {
+    width: 80px;
+    border:none;
+    padding: 5px;
+    background-color: green;
+    font-size: 16px;
+    color:white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user__container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.user__show {
+    flex: 1;
+    padding:20px;
+    -webkit-box-shadow: 0px 0px 11px -3px #000000; 
+    box-shadow: 0px 0px 11px -3px #000000;
+}
+
+.user__update {
+    flex: 2;
+    padding:20px;
+    -webkit-box-shadow: 0px 0px 11px -3px #000000; 
+    box-shadow: 0px 0px 11px -3px #000000;
+}
+
+.user__show__top {
+    display: flex;
+    align-items: center;
+}
+
+.user__show__img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user__show__top__title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.user__show__username {
+    font-weight: 600;
+}
+
+.user__show__jobTitle {
+    font-weight: 300;
+}
+
+.user__show__bottom{
+    margin-top: 20px;
+}
+
+.user__show__title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user__show__info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.user__show__icon {
+    font-size: 16px !important;
+}
+
+.user__show__infoTitle{
+    margin-left: 10px;
+}
+
+.user__update__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right:10px;
+}
+
+.user__update__form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.user__update__title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user__update__item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.user__update__item > label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.user__update__input{
+    outline: none;
+    min-width: 250px;
+    /* padding: 10px; */
+    border:none;
+    border-bottom: 1px solid #000;
+    height: 30px;
+}
+
+.user__update__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user__update__upload {
+    display: flex;
+    align-items: center;
+}
+
+.user__update__icon {
+    cursor: pointer;
+}
+
+.user__update__btn {
+    border-radius: 5px;
+    border:none;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    padding:10px;
+    cursor: pointer;
+}

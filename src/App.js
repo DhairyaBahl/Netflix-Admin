@@ -3,17 +3,30 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Sidebar from './Components/Sidebar/Sidebar'
 import Home from './Components/Home/Home'
+import UserList from './Components/UserList/UserList'
+import User from './Components/User/User'
+import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
 class App extends React.Component {
   render () {
     return (
-      <div className="app">
+      <Router>
         <Header/>
         <div className="main">
           <Sidebar/>
-          <Home/>
+          <Switch>
+            <Route exact path="/">
+              <Home/>
+            </Route>
+            <Route path="/users">
+              <UserList/>
+            </Route>
+            <Route path="/user/:userId">
+              <User/>
+            </Route>
+          </Switch>
         </div>
-      </div>
+      </Router>
     )
   }
 }
